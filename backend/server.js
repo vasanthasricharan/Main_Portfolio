@@ -7,7 +7,7 @@ require('dotenv').config({ path: './url.env' }); // ✅ Load from url.env
 const app = express();
 
 // Replace with your actual Vercel frontend domain
-const allowedOrigin = 'https://your-frontend.vercel.app'; // ✅ UPDATE THIS
+const allowedOrigin = 'https://my-portfolio-flax-one-48.vercel.app'; // ✅ UPDATE THIS
 
 app.use(cors({ origin: allowedOrigin }));
 app.use(bodyParser.json());
